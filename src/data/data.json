@@ -1,0 +1,99 @@
+{
+  "about": {
+    "name": "Jai Singh",
+    "role": "Full Stack Web Developer",
+    "quote": "Coding is poetry in logic.",
+    "resume": "https://res.cloudinary.com/nobita-storage/image/upload/v1755865933/JaiSingh_Resume_ejbpy4.pdf",
+    "bio": "Computer Science Engineering Student specializing in Artificial Intelligence and Machine Learning. Passionate about full stack development, building AI-powered applications, and contributing to innovative projects. Looking forward to gaining more work experience as an intern.",
+    "experience": [
+      {
+        "position": "Full Stack Web Developer Intern",
+        "company": "Vedaz",
+        "duration": "June 2025 - August 2025",
+        "description": "Developed and maintained frontend components using React.js and Tailwind CSS. Implemented RESTful APIs with Node.js and Express.js. Worked with MongoDB for database operations including CRUD functionality and schema design. Collaborated using Git & GitHub following agile workflows."
+      }
+    ],
+    "skills": [
+      "JavaScript (ES6+)",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "SQL",
+      "HTML",
+      "CSS",
+      "TailwindCSS",
+      "Python",
+      "C",
+      "C++",
+      "Java",
+      "REST APIs"
+    ],
+    "funFacts": [
+      "AI & ML enthusiast 🤖",
+      "Hackathon participant 🏆",
+      "Workshop & seminar attendee 📚"
+    ]
+  },
+  "techStack": [
+    {
+      "category": "Frontend",
+      "technologies": ["React.js", "Next.js", "HTML", "CSS", "TailwindCSS", "JavaScript (ES6+)", "Responsive Web Design"]
+    },
+    {
+      "category": "Backend",
+      "technologies": ["Node.js", "Express.js", "MongoDB", "SQL", "REST APIs"]
+    },
+    {
+      "category": "Programming Languages",
+      "technologies": ["Python", "JavaScript", "C", "C++", "Java"]
+    },
+    {
+      "category": "Tools & Platforms",
+      "technologies": ["Git", "GitHub", "Postman", "VS Code", "Context API"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Portfolio Website with Admin Panel",
+      "description": "Personal portfolio website showcasing projects, blogs, and contact details with dynamic content management",
+      "tech": ["React.js", "TailwindCSS", "MongoDB"],
+      "features": ["Admin panel for dynamic content management", "Projects and blogs showcase", "Contact details integration"]
+    },
+    {
+      "title": "AI Astrology Chatbot",
+      "description": "AI-powered astrology chatbot platform integrating Llama model for personalized interactions",
+      "tech": ["React.js", "Node.js", "Express", "MongoDB", "Llama AI Model", "Hostinger VPS"],
+      "features": ["Streamed AI responses", "Multiple astrologer personas", "Custom system prompts", "Session history management", "Context management"]
+    },
+    {
+      "title": "Customer Ledger App",
+      "description": "Progressive web app for managing customer transactions with role-based access control, similar to OkCredit",
+      "tech": ["React", "Node.js", "IndexedDB"],
+      "features": ["Role-based access control", "Offline data storage with IndexedDB", "WhatsApp/SMS reminders", "Customer transaction management"]
+    },
+    {
+      "title": "Crop Recommendation System",
+      "description": "Machine learning-based application suggesting optimal crops based on soil and weather data",
+      "tech": ["Flask", "Python", "TailwindCSS", "Machine Learning"],
+      "features": ["ML-based crop prediction", "Soil and weather data analysis", "Trained model integration", "User-friendly interface"]
+    }
+  ],
+  "contact": {
+    "email": "jaisinghmitrc+portfolio@gmail.com",
+    "phone": "+91 9461661537",
+    "github": "https://github.com/jaisinghrajput",
+    "linkedin": "https://linkedin.com/in/jaisingh00",
+    "twitter": "https://twitter.com/jai",
+    "website": "https://tech-jai.dev",
+    "location": "Alwar,Rajasthan, India"
+  },
+  "education": {
+    "degree": "Bachelor of Technology",
+    "university": "Bikaner Technical University",
+    "institute": "Modern Institute of Technology and Research Center, Alwar",
+    "field": "Artificial Intelligence and Machine Learning",
+    "expectedGraduation": "2027"
+  }
+}
