@@ -5,7 +5,7 @@ import Navbar from "./components/layout/Navbar";
 import HomePage from "./pages/Home";
 import { ProjectsPage } from "./pages/ProjectsPage";
 import portfolioData from "./data/data.json"
-import NotFoundPage from "./pages/NotFound.JSX";
+import NotFoundPage from "./pages/NotFound";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('Home');
