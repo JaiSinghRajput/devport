@@ -1,11 +1,10 @@
 import { useState } from "react";
-import Footer from "./components/layout/Footer";
-
 import Navbar from "./components/layout/Navbar";
 import HomePage from "./pages/Home";
 import { ProjectsPage } from "./pages/ProjectsPage";
 import portfolioData from "./data/data.json"
 import NotFoundPage from "./pages/NotFound";
+import { Footer } from "./components/layout/Footer";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -26,7 +25,7 @@ export default function App() {
     <div className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-black p-6 flex flex-col">
       <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
       {renderPage()}
-      <Footer />
+      <Footer details={portfolioData.contact} />
     </div>
   );
 }

@@ -29,7 +29,7 @@ export function Contact({ contact }) {
         {/* Social Links & CTA */}
         <div className="flex-1 flex flex-col items-start gap-4">
           <h2 className="text-xl font-semibold text-white">🌐 Find me online</h2>
-          <div className="flex gap-4">
+          <div className="flex gap-4 flex-wrap justify-center">
             {socialLinks.map((link, i) =>
               link.url ? (
                 <a
@@ -37,7 +37,7 @@ export function Contact({ contact }) {
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="md:flex items-center gap-1 px-3 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg transition transform hover:scale-105"
+                  className="items-center px-3 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg transition transform hover:scale-105"
                 >
                   <link.icon className="w-4 h-4 text-green-400" />
                   <span className="text-sm text-gray-200">{link.name}</span>

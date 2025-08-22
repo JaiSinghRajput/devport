@@ -23,7 +23,7 @@ export default function RecursiveObject({ data, level = 0 }) {
   const skipOuterArray = isArray && data.every(item => typeof item === 'object' && item !== null);
 
   return (
-    <div className={`ml-${level * 4}`}>
+    <div className={`ml-${level * 2}`}>
       {!skipOuterArray && (
         <div className="flex items-center cursor-pointer select-none" onClick={() => setOpen(!open)}>
           {open ? <ChevronDown size={14} className="text-gray-500 mr-1" /> : <ChevronRight size={14} className="text-gray-500 mr-1" />}

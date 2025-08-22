@@ -44,7 +44,7 @@ export default function HomePage({ aboutData, recentProjects, techStack, contact
             href={aboutData.resume}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-xl shadow-md transition-transform hover:scale-105"
+            className="inline-flex items-center gap-2 border-black border-2 hover:border-green-600 text-indigo-500 px-5 py-2 rounded-xl shadow-md transition-transform hover:scale-105"
           >
             <FileText className="w-5 h-5" />
             View Resume
