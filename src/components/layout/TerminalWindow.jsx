@@ -4,7 +4,7 @@ export function TerminalWindow({ children, height = 'auto', className = '' }) {
       className={`
         w-full
         max-w-5xl
-        min-w-[80px]
+        min-w-[280px]
         mx-auto
         bg-[#111]
         border border-gray-700

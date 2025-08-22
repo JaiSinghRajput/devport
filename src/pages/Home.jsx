@@ -12,7 +12,6 @@ export default function HomePage({ aboutData, recentProjects, techStack, contact
 
   return (
     <div className="flex flex-col gap-12 items-center lg:px-0 w-full max-w-6xl mx-auto">
-
       {/* Hero Section */}
       <div className="flex flex-col items-center text-center gap-4 mt-10">
         <h1 className="text-4xl md:text-6xl font-bold text-white">
@@ -24,10 +23,10 @@ export default function HomePage({ aboutData, recentProjects, techStack, contact
       </div>
 
       {/* Hero Terminal */}
-      <TerminalWindow className="hover:scale-105 transition-transform duration-300 shadow-xl max-w-3xl w-full">
+      <TerminalWindow className="hover:scale-105 transition-transform duration-300 shadow-xl w-full">
         <CommandLine command="whoami" />
         <QuoteLine>
-          {aboutData.role} | Fullstack Developer | <span className="animate-blink">|</span>
+          {aboutData.role} 
         </QuoteLine>
         <CommandLine command="cat profile.jpg" />
         <TerminalOutput className="flex flex-col items-center gap-2">
@@ -55,8 +54,6 @@ export default function HomePage({ aboutData, recentProjects, techStack, contact
 
       {/* About Split Terminals */}
       <div className="grid gap-6 w-full lg:grid-cols-2">
-
-        {/* Bio */}
         <TerminalWindow className="hover:scale-105 transition-transform duration-300 shadow-lg">
           <CommandLine command="cat bio.txt" />
           <TerminalOutput>{aboutData.bio}</TerminalOutput>
