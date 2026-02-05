@@ -1,18 +1,47 @@
 {
+  "meta": {
+    "title": "Jai Singh | Full Stack Developer & ML Engineer",
+    "description": "Portfolio of Jai Singh — Full Stack Developer, AI/ML Engineer, and DevOps Learner. Projects, skills, experience, and contact details.",
+    "keywords": [
+      "Jai Singh",
+      "Full Stack Developer",
+      "Machine Learning Engineer",
+      "React",
+      "Node.js",
+      "AI/ML",
+      "Portfolio",
+      "JavaScript",
+      "Deep Learning"
+    ],
+    "siteUrl": "https://tech-jai.dev",
+    "image": "https://res.cloudinary.com/nobita-storage/image/upload/v1755858657/fae2951a-9fd6-44e7-bd58-795c5ad1baf5.png",
+    "twitterHandle": "@jai",
+    "themeColor": "#0f172a",
+    "locale": "en_US"
+  },
+
   "about": {
     "name": "Jai Singh",
-    "role": "Full Stack Web Developer, AI/ML Enthusiast, DevOps Learner",
+    "role": "Full Stack Developer | Machine Learning Engineer | AI Enthusiast",
     "quote": "Coding is poetry in logic.",
+    "avatar": "https://res.cloudinary.com/nobita-storage/image/upload/v1755858657/fae2951a-9fd6-44e7-bd58-795c5ad1baf5.png",
     "resume": "https://res.cloudinary.com/nobita-storage/image/upload/v1755865933/JaiSingh_Resume_ejbpy4.pdf",
-    "bio": "Computer Science Engineering Student specializing in Artificial Intelligence and Machine Learning. Passionate about full stack development, building AI-powered applications, and contributing to innovative projects. Looking forward to gaining more work experience as an intern.",
+    "bio": "Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning. Strong experience in full stack web development and hands-on expertise in machine learning, deep learning, and deploying AI-powered applications.",
     "experience": [
       {
         "position": "Full Stack Web Developer Intern",
         "company": "Vedaz",
         "duration": "June 2025 - August 2025",
-        "description": "Developed and maintained frontend components using React.js and Tailwind CSS. Implemented RESTful APIs with Node.js and Express.js. Worked with MongoDB for database operations including CRUD functionality and schema design. Collaborated using Git & GitHub following agile workflows."
+        "description": "Built scalable full-stack modules using React.js, Node.js, Express.js, and MongoDB. Designed optimized database schemas, integrated REST APIs, implemented AI-powered chatbot features, and collaborated in an agile team using Git/GitHub."
+      },
+      {
+        "position": "Frontend Developer Intern",
+        "company": "Uzence Design Studio",
+        "duration": "August 2025 - September 2025",
+        "description": "Developed reusable UI components using React and TypeScript. Integrated Storybook for component documentation and visual testing. Enhanced the Slot feature to support dynamic custom components within the design system."
       }
     ],
+
     "skills": [
       "JavaScript (ES6+)",
       "React.js",
@@ -24,62 +53,166 @@
       "HTML",
       "CSS",
       "TailwindCSS",
+      "TypeScript",
       "Python",
       "C",
       "C++",
       "Java",
-      "REST APIs"
+      "REST APIs",
+      "Machine Learning",
+      "Deep Learning",
+      "CNNs",
+      "RNNs",
+      "TensorFlow",
+      "Keras",
+      "PyTorch",
+      "Scikit-learn",
+      "Flask",
+      "FastAPI"
     ],
+
     "funFacts": [
       "AI & ML enthusiast 🤖",
       "Hackathon participant 🏆",
-      "Workshop & seminar attendee 📚"
+      "Workshop & seminar attendee 📚",
+      "Enjoys building AI-powered products 🚀"
     ]
   },
+
   "techStack": [
     {
       "category": "Frontend",
-      "technologies": ["React.js", "Next.js", "HTML", "CSS", "TailwindCSS", "JavaScript (ES6+)", "Responsive Web Design"]
+      "technologies": [
+        "React.js",
+        "Next.js",
+        "HTML",
+        "CSS",
+        "TailwindCSS",
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "Responsive Web Design"
+      ]
     },
     {
       "category": "Backend",
-      "technologies": ["Node.js", "Express.js", "MongoDB", "SQL", "REST APIs"]
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "SQL",
+        "REST APIs",
+        "Flask",
+        "FastAPI"
+      ]
     },
     {
-      "category": "Programming Languages",
-      "technologies": ["Python", "JavaScript", "C", "C++", "Java"]
+      "category": "Machine Learning & AI",
+      "technologies": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Neural Networks",
+        "CNNs",
+        "RNNs",
+        "Transfer Learning",
+        "Scikit-learn",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "OpenCV",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn"
+      ]
     },
     {
       "category": "Tools & Platforms",
-      "technologies": ["Git", "GitHub", "Postman", "VS Code", "Context API"]
+      "technologies": [
+        "Git",
+        "GitHub",
+        "Postman",
+        "VS Code",
+        "Jupyter Notebook",
+        "Google Colab",
+        "Storybook"
+      ]
     }
   ],
+
   "projects": [
     {
       "title": "Portfolio Website with Admin Panel",
-      "description": "Personal portfolio website showcasing projects, blogs, and contact details with dynamic content management",
+      "description": "Personal portfolio website with dynamic content management for projects and blogs.",
       "tech": ["React.js", "TailwindCSS", "MongoDB"],
-      "features": ["Admin panel for dynamic content management", "Projects and blogs showcase", "Contact details integration"]
+      "features": [
+        "Admin panel for dynamic content management",
+        "Project & blog showcase",
+        "Responsive UI"
+      ]
     },
     {
       "title": "AI Astrology Chatbot",
-      "description": "AI-powered astrology chatbot platform integrating Llama model for personalized interactions",
-      "tech": ["React.js", "Node.js", "Express", "MongoDB", "Llama AI Model", "Hostinger VPS"],
-      "features": ["Streamed AI responses", "Multiple astrologer personas", "Custom system prompts", "Session history management", "Context management"]
+      "description": "AI-powered astrology chatbot with streamed responses and multiple astrologer personas.",
+      "tech": ["React.js", "Node.js", "Express.js", "MongoDB", "Llama AI Model"],
+      "features": [
+        "Streamed AI responses",
+        "Multiple personas",
+        "Session history & context management",
+        "Hosted on VPS"
+      ]
     },
     {
-      "title": "Customer Ledger App",
-      "description": "Progressive web app for managing customer transactions with role-based access control, similar to OkCredit",
+      "title": "Customer Ledger App (OkCredit-like)",
+      "description": "Progressive web app for managing customer transactions with offline support.",
       "tech": ["React", "Node.js", "IndexedDB"],
-      "features": ["Role-based access control", "Offline data storage with IndexedDB", "WhatsApp/SMS reminders", "Customer transaction management"]
+      "features": [
+        "Role-based access control",
+        "Offline-first architecture",
+        "WhatsApp/SMS reminders"
+      ]
     },
     {
       "title": "Crop Recommendation System",
-      "description": "Machine learning-based application suggesting optimal crops based on soil and weather data",
-      "tech": ["Flask", "Python", "TailwindCSS", "Machine Learning"],
-      "features": ["ML-based crop prediction", "Soil and weather data analysis", "Trained model integration", "User-friendly interface"]
+      "description": "ML-based system recommending optimal crops using soil and weather data.",
+      "tech": ["Python", "Flask", "Machine Learning", "TailwindCSS"],
+      "features": [
+        "Trained ML model integration",
+        "Soil & weather analysis",
+        "Clean web UI"
+      ]
+    },
+    {
+      "title": "House Price Prediction",
+      "description": "Regression-based ML model to predict housing prices with high accuracy.",
+      "tech": ["Python", "Scikit-learn"],
+      "features": [
+        "92% R² accuracy",
+        "Feature engineering",
+        "Hyperparameter tuning"
+      ]
+    },
+    {
+      "title": "Image Classification using CNN",
+      "description": "Deep learning image classification model optimized using CNN architecture.",
+      "tech": ["Python", "TensorFlow", "Keras"],
+      "features": [
+        "95% classification accuracy",
+        "Data augmentation",
+        "Optimized CNN architecture"
+      ]
+    },
+    {
+      "title": "Sentiment Analysis Dashboard",
+      "description": "Full-stack ML web app for classifying movie review sentiments.",
+      "tech": ["Python", "Flask", "Scikit-learn"],
+      "features": [
+        "93% accuracy",
+        "Interactive dashboard",
+        "End-to-end ML pipeline"
+      ]
     }
   ],
+
   "contact": {
     "email": "jaisinghmitrc+portfolio@gmail.com",
     "phone": "+91 9461661537",
@@ -87,8 +220,16 @@
     "linkedin": "https://linkedin.com/in/jaisingh00",
     "twitter": "https://twitter.com/jai",
     "website": "https://tech-jai.dev",
-    "location": "Alwar,Rajasthan, India"
+    "location": "Alwar, Rajasthan, India"
   },
+
+  "github": {
+    "username": "jaisinghrajput",
+    "topReposCount": 6,
+    "excludeForks": true,
+    "sortBy": "updated"
+  },
+
   "education": {
     "degree": "Bachelor of Technology",
     "university": "Bikaner Technical University",

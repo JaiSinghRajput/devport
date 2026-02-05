@@ -6,8 +6,9 @@ import CommandLine from "../components/UI/CommandLine";
 import { QuoteLine } from "../components/UI/QuoteLine";
 import RecursiveObject from "../components/UI/RecursiveObject";
 import TerminalOutput from "../components/UI/TerminalOutput";
+import TopRepos from "../components/UI/TopRepos";
 
-export default function HomePage({ aboutData, recentProjects, techStack, contact, education }) {
+export default function HomePage({ aboutData, recentProjects, techStack, contact, education, github }) {
   const recentProjectsToShow = recentProjects.slice(0, 2);
 
   return (
@@ -15,7 +16,7 @@ export default function HomePage({ aboutData, recentProjects, techStack, contact
       {/* Hero Section */}
       <div className="flex flex-col items-center text-center gap-4 mt-10">
         <h1 className="text-4xl md:text-6xl font-bold text-white">
-          Hey 👋, I’m <span className="text-green-400">Jai Singh</span>
+          Hey 👋, I’m <span className="text-green-400">{aboutData.name}</span>
         </h1>
         <p className="text-lg md:text-xl text-gray-400 max-w-2xl">
           {aboutData.role} | Builder | AI Enthusiast | Turning ideas into clean code 🚀
@@ -32,12 +33,12 @@ export default function HomePage({ aboutData, recentProjects, techStack, contact
         <TerminalOutput className="flex flex-col items-center gap-2">
           <div className="border-2 border-green-400 p-1 rounded-full">
             <img
-              src="https://res.cloudinary.com/nobita-storage/image/upload/v1755858657/fae2951a-9fd6-44e7-bd58-795c5ad1baf5.png"
-              alt="Jai Singh"
+              src={aboutData.avatar}
+              alt={aboutData.name}
               className="w-32 h-32 rounded-full object-cover"
             />
           </div>
-          <span className="text-green-400">// Jai Singh, Fullstack Developer</span>
+          <span className="text-green-400">// {aboutData.name}, Fullstack Developer</span>
         </TerminalOutput>
         <div className="mt-6 flex gap-4">
           <a
@@ -118,6 +119,9 @@ export default function HomePage({ aboutData, recentProjects, techStack, contact
           ))}
         </div>
       </div>
+
+      {/* Top Repositories */}
+      <TopRepos github={github} />
 
       {/* Tech Stack & Contact */}
       <TechStack techStack={techStack} />
