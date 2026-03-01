@@ -16,10 +16,14 @@ export function Contact({ contact }) {
         <div className="flex-1 flex flex-col items-start gap-3 text-gray-300">
           <h2 className="text-2xl font-bold text-white mb-2">📬 Contact Me</h2>
           <p className="flex items-center gap-2">
-            <Mail className="w-5 h-5 text-yellow-400" /> {contact.email}
+            <a href={`mailto:${contact.email}`} className="text-yellow-400 hover:underline">
+              <Mail className="w-5 h-5 text-yellow-400" /> {contact.email}
+            </a>
           </p>
           <p className="flex items-center gap-2">
+                    <a href={`tel:${contact.phone}`} className="text-yellow-400 hover:underline">
             <Phone className="w-5 h-5 text-yellow-400" /> {contact.phone}
+            </a>
           </p>
           <p className="flex items-center gap-2">
             <MapPin className="w-5 h-5 text-yellow-400" /> {contact.location}
